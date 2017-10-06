@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 style="color:#fff"> Weather App</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <div class="search">
+                        <label for="city">Input Your City Name</label>
+                        <input type="text" class="form-control" id="city" placeholder="dhaka...">
+                        <button class="butt">Get Weather</button>
+                    </div>
+                    <div id="load">Loading...</div>
+                    <div id="weather">
+                        <h1 id="weatherCity">City Name</h1>
+                        <div id="wetherDiscrip">Weather Discription</div><br>
+                        <div id="weatherTemp">Weather Temperature</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer text-center">
+                        <p> &copy ALL RIGHT RESERVED BY MOHAIMAN, 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/scripts/init.js"></script>
+    <script src="assets/scripts/weather-data.js"></script>
+    <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>
